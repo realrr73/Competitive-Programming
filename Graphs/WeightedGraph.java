@@ -6,10 +6,10 @@ public class WeightedGraph {
 		int destination;
 		int weight;
 
-		public Edge(int source, int destination, int weight) {
-			this.source = source;
-			this.destination = destination;
-			this.weight = weight;
+		public Edge(int u, int v, int w) {
+			this.u = source;
+			this.v = destination;
+			this.w = weight;
 		}
 	}
 
